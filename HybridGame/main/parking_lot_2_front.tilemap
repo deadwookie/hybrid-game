@@ -4,37 +4,51 @@ layers {
   z: 0.0
   is_visible: 1
   cell {
+    x: 0
+    y: 0
+    tile: 714
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
     x: 1
     y: 0
-    tile: 906
+    tile: 786
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
     y: 0
-    tile: 906
+    tile: 714
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 3
     y: 0
-    tile: 750
+    tile: 714
     h_flip: 0
     v_flip: 0
   }
   cell {
-    x: 1
+    x: 0
     y: 1
     tile: 714
     h_flip: 0
     v_flip: 0
   }
   cell {
+    x: 1
+    y: 1
+    tile: 868
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
     x: 2
     y: 1
-    tile: 898
+    tile: 714
     h_flip: 0
     v_flip: 0
   }
@@ -47,27 +61,13 @@ layers {
   }
 }
 layers {
-  id: "sidewalk"
+  id: "sidewalk "
   z: 0.0
   is_visible: 1
   cell {
     x: 0
-    y: 0
-    tile: 747
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 0
-    y: 1
-    tile: 747
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 0
     y: 2
-    tile: 747
+    tile: 820
     h_flip: 0
     v_flip: 0
   }
@@ -94,119 +94,95 @@ layers {
   }
 }
 layers {
-  id: "parkometer"
-  z: 0.1
-  is_visible: 1
-}
-layers {
-  id: "stones"
+  id: "stone"
   z: 0.1
   is_visible: 1
   cell {
-    x: 1
-    y: 0
-    tile: 739
+    x: 0
+    y: 1
+    tile: 886
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 1
     y: 1
-    tile: 739
-    h_flip: 0
-    v_flip: 0
-  }
-}
-layers {
-  id: "car_top"
-  z: 0.8
-  is_visible: 0
-  cell {
-    x: 1
-    y: 1
-    tile: 959
+    tile: 887
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
     y: 1
-    tile: 960
+    tile: 886
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 3
     y: 1
-    tile: 961
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 1
-    y: 2
-    tile: 922
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 2
-    y: 2
-    tile: 923
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 3
-    y: 2
-    tile: 924
+    tile: 887
     h_flip: 0
     v_flip: 0
   }
 }
 layers {
-  id: "car_btm"
+  id: "car"
   z: 0.9
   is_visible: 1
   cell {
+    x: 0
+    y: 0
+    tile: 734
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
     x: 1
     y: 0
-    tile: 808
+    tile: 735
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
     y: 0
-    tile: 809
+    tile: 1032
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 3
     y: 0
-    tile: 810
+    tile: 1033
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 0
+    y: 1
+    tile: 697
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 1
     y: 1
-    tile: 771
+    tile: 698
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
     y: 1
-    tile: 772
+    tile: 995
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 3
     y: 1
-    tile: 773
+    tile: 996
     h_flip: 0
     v_flip: 0
   }

@@ -1,7 +1,7 @@
 name: "main"
 scale_along_z: 0
 embedded_instances {
-  id: "go"
+  id: "ground"
   data: "components {\n"
   "  id: \"ground\"\n"
   "  component: \"/main/ground.tilemap\"\n"
@@ -36,7 +36,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "go1"
+  id: "shop_red"
   data: "components {\n"
   "  id: \"shop_2\"\n"
   "  component: \"/main/shop_2.tilemap\"\n"
@@ -54,8 +54,8 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 211.0
-    y: 435.0
+    x: 269.0
+    y: 476.0
     z: 0.0
   }
   rotation {
@@ -71,7 +71,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "go2"
+  id: "road_main"
   data: "components {\n"
   "  id: \"road_strip\"\n"
   "  component: \"/main/road_strip.tilemap\"\n"
@@ -90,7 +90,7 @@ embedded_instances {
   ""
   position {
     x: 0.0
-    y: 308.0
+    y: 572.0
     z: 0.0
   }
   rotation {
@@ -106,7 +106,7 @@ embedded_instances {
   }
 }
 embedded_instances {
-  id: "go3"
+  id: "parking_side"
   data: "components {\n"
   "  id: \"parking_lot_2\"\n"
   "  component: \"/main/parking_lot_2.tilemap\"\n"
@@ -124,15 +124,85 @@ embedded_instances {
   "}\n"
   ""
   position {
-    x: 213.0
-    y: 421.0
+    x: 397.0
+    y: 427.0
     z: 0.0
   }
   rotation {
     x: 0.0
     y: 0.0
-    z: 0.70710677
-    w: -0.70710677
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "parking_front"
+  data: "components {\n"
+  "  id: \"parking_lot_2_front\"\n"
+  "  component: \"/main/parking_lot_2_front.tilemap\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 268.0
+    y: 429.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
+embedded_instances {
+  id: "shop_glass"
+  data: "components {\n"
+  "  id: \"shop_2_modern\"\n"
+  "  component: \"/main/shop_2_modern.tilemap\"\n"
+  "  position {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "  }\n"
+  "  rotation {\n"
+  "    x: 0.0\n"
+  "    y: 0.0\n"
+  "    z: 0.0\n"
+  "    w: 1.0\n"
+  "  }\n"
+  "}\n"
+  ""
+  position {
+    x: 397.0
+    y: 475.0
+    z: 0.0
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    w: 1.0
   }
   scale3 {
     x: 1.0

@@ -1,212 +1,226 @@
 tile_set: "/main/main.tilesource"
 layers {
-  id: "pavement"
-  z: 0.0
-  is_visible: 1
-  cell {
-    x: 1
-    y: 0
-    tile: 906
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 2
-    y: 0
-    tile: 906
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 3
-    y: 0
-    tile: 750
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 1
-    y: 1
-    tile: 714
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 2
-    y: 1
-    tile: 898
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 3
-    y: 1
-    tile: 714
-    h_flip: 0
-    v_flip: 0
-  }
-}
-layers {
-  id: "sidewalk"
+  id: "walls"
   z: 0.0
   is_visible: 1
   cell {
     x: 0
     y: 0
-    tile: 747
+    tile: 457
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 1
+    y: 0
+    tile: 458
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 2
+    y: 0
+    tile: 458
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 3
+    y: 0
+    tile: 385
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 0
     y: 1
-    tile: 747
+    tile: 346
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 1
+    y: 1
+    tile: 347
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 2
+    y: 1
+    tile: 347
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 3
+    y: 1
+    tile: 348
+    h_flip: 0
+    v_flip: 0
+  }
+}
+layers {
+  id: "roof "
+  z: 0.0
+  is_visible: 1
+  cell {
+    x: 0
+    y: 2
+    tile: 45
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 1
+    y: 2
+    tile: 47
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 2
+    y: 2
+    tile: 47
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 3
+    y: 2
+    tile: 46
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 0
-    y: 2
-    tile: 747
+    y: 3
+    tile: 8
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 1
-    y: 2
-    tile: 821
+    y: 3
+    tile: 10
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
-    y: 2
-    tile: 821
+    y: 3
+    tile: 10
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 3
-    y: 2
-    tile: 822
+    y: 3
+    tile: 9
     h_flip: 0
     v_flip: 0
   }
 }
 layers {
-  id: "parkometer"
-  z: 0.1
-  is_visible: 1
-}
-layers {
-  id: "stones"
+  id: "doors"
   z: 0.1
   is_visible: 1
   cell {
     x: 1
     y: 0
-    tile: 739
+    tile: 948
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 2
+    y: 0
+    tile: 949
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 1
     y: 1
-    tile: 739
-    h_flip: 0
-    v_flip: 0
-  }
-}
-layers {
-  id: "car_top"
-  z: 0.8
-  is_visible: 0
-  cell {
-    x: 1
-    y: 1
-    tile: 959
+    tile: 911
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
     y: 1
-    tile: 960
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 3
-    y: 1
-    tile: 961
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 1
-    y: 2
-    tile: 922
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 2
-    y: 2
-    tile: 923
-    h_flip: 0
-    v_flip: 0
-  }
-  cell {
-    x: 3
-    y: 2
-    tile: 924
+    tile: 912
     h_flip: 0
     v_flip: 0
   }
 }
 layers {
-  id: "car_btm"
-  z: 0.9
+  id: "sign"
+  z: 0.1
   is_visible: 1
   cell {
     x: 1
-    y: 0
-    tile: 808
+    y: 2
+    tile: 294
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
-    y: 0
-    tile: 809
+    y: 2
+    tile: 295
     h_flip: 0
     v_flip: 0
   }
-  cell {
-    x: 3
-    y: 0
-    tile: 810
-    h_flip: 0
-    v_flip: 0
-  }
+}
+layers {
+  id: "ventilation"
+  z: 0.1
+  is_visible: 1
   cell {
     x: 1
-    y: 1
-    tile: 771
+    y: 3
+    tile: 544
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 2
+    y: 3
+    tile: 544
+    h_flip: 0
+    v_flip: 0
+  }
+}
+layers {
+  id: "sign_alt"
+  z: 0.1
+  is_visible: 1
+  cell {
+    x: 0
+    y: 0
+    tile: 330
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 3
+    y: 0
+    tile: 330
+    h_flip: 0
+    v_flip: 0
+  }
+  cell {
+    x: 0
     y: 1
-    tile: 772
+    tile: 293
     h_flip: 0
     v_flip: 0
   }
   cell {
     x: 3
     y: 1
-    tile: 773
+    tile: 293
     h_flip: 0
     v_flip: 0
   }
